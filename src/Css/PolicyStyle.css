@@ -1,0 +1,20 @@
+.policy {
+  max-width: 990px;
+  margin: 2em auto;
+}
+li {
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
+  margin: 2em 0;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .policy {
+    width: 70%;
+    margin: 1em auto;
+  }
+  li {
+    font-size: 0.8rem;
+  }
+}
